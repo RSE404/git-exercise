@@ -44,3 +44,9 @@ def test_3d_vector_addition() -> None:
 def test_3d_vector_subtraction() -> None:
     # Task B: add a test for vector subtraction
     assert True
+
+if __name__ == "__main__":
+    test_vector_index_access()
+    test_3d_vector_addition()
+    test_3d_vector_subtraction()
+    print("All tests passed.")
