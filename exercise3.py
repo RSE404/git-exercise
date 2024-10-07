@@ -28,7 +28,7 @@ class Rectangle:
     def contains(self, point: Point2D, tolerance: float = 0.0) -> bool:
         ll_px = point.x - self._lower_left.x
         ll_py = point.y - self._lower_left.y
-        return self.is_in_interval(ll_px, (0.0-tolerance, self._dx+tolerance)) and self.is_in_interval(ll_py-, (0.0-tolerance, self._dy+tolerance))
+        return self.is_in_interval(ll_px, (0.0-tolerance, self._dx+tolerance)) and self.is_in_interval(ll_py, (0.0-tolerance, self._dy+tolerance))
 
 
     def _is_idx_on_upper_edge(self, i: int) -> bool:
