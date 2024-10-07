@@ -46,9 +46,3 @@ def test_3d_vector_subtraction() -> None:
     assert isclose(v[0], 0.8)
     assert isclose(v[1], 1.5)
     assert isclose(v[2], 4.3)
-
-if __name__ == "__main__":.5
-    test_vector_index_access()
-    test_3d_vector_addition()
-    test_3d_vector_subtraction()
-    print("All tests passed.")
